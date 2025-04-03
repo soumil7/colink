@@ -1,0 +1,227 @@
+/* General Styles for the Leaderboard */
+.leaderboard {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin-top: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .leaderboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .leaderboard-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .leaderboard-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .points {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+  }
+  
+  /* Loading state style */
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 320px) {
+    .leaderboard {
+      padding: 10px;
+    }
+  
+    .leaderboard h2 {
+      font-size: 1.5rem;
+    }
+  
+    .leaderboard-item {
+      padding: 10px;
+    }
+  
+    .profile-image {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .username {
+      font-size: 1rem;
+    }
+  
+    .points {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .leaderboard h2 {
+      font-size: 1.8rem;
+    }
+  
+    .profile-image {
+      width: 45px;
+      height: 45px;
+    }
+  
+    .leaderboard-item {
+      padding: 12px;
+    }
+  
+    .username {
+      font-size: 1.1rem;
+    }
+  
+    .points {
+      font-size: 13px;
+    }
+  }
+  
+  @media only screen and (max-width: 475px) {
+    .leaderboard h2 {
+      font-size: 1.9rem;
+    }
+  
+    .leaderboard-item {
+      padding: 14px;
+    }
+  
+    .profile-image {
+      width: 48px;
+      height: 48px;
+    }
+  
+    .username {
+      font-size: 1.2rem;
+    }
+  
+    .points {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .leaderboard {
+      padding: 20px;
+    }
+  
+    .leaderboard h2 {
+      font-size: 2rem;
+    }
+  
+    .leaderboard-item {
+      padding: 15px;
+    }
+  
+    .profile-image {
+      width: 55px;
+      height: 55px;
+    }
+  
+    .username {
+      font-size: 1.3rem;
+    }
+  
+    .points {
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .leaderboard {
+      padding: 25px;
+      max-width: 1000px;
+    }
+  
+    .leaderboard h2 {
+      font-size: 2.2rem;
+    }
+  
+    .leaderboard-item {
+      padding: 20px;
+    }
+  
+    .profile-image {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .username {
+      font-size: 1.4rem;
+    }
+  
+    .points {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 1140px) {
+    .leaderboard {
+      padding: 30px;
+      max-width: 1100px;
+    }
+  
+    .leaderboard h2 {
+      font-size: 2.5rem;
+    }
+  
+    .leaderboard-item {
+      padding: 25px;
+    }
+  
+    .profile-image {
+      width: 65px;
+      height: 65px;
+    }
+  
+    .username {
+      font-size: 1.5rem;
+    }
+  
+    .points {
+      font-size: 18px;
+    }
+  }
+  
