@@ -27,6 +27,7 @@ function SignupBody() {
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
+    navigate("/");
     e.preventDefault();
 
     const newPerson = {
